@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 [<img src="./src/portifolio.gif" alt="gif do projeto portifolio">](https://www.alexprogramadorweb.com)
 
@@ -25,7 +25,7 @@ src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-o
 1 - Clone
 
 ```
-https://github.com/hamilton-vivas/hubble-landing-page.git
+https://github.com/hamilton-vivas/projeto-portifolio.git
 ```
 
 2 - Acesse a pasta do projeto
