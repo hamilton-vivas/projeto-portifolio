@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Alex Programador Desenvolvedor Web Front-end">
+  <meta name="author" content="Hamilton Alexandre Trindade Vivas">
+  <title>Hamilton Alexandre Trindade Vivas - Desenvolvedor Frontend</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">HA</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá ✋,</p>
+          <h1>Sou Hamilton Alexandre</h1>
+          <h2>Desenvolvedor Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/hamilton-alexandre-vivas-069953238/" class="outer-shadow" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/5571982046446" class="outer-shadow" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/hamilton-vivas" class="outer-shadow" target="_blank"><i class="fab fa-github"></i></a>
+            <!-- <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a> -->
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/foto-perfil.png" alt="foto do perfil do Hamilton" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/foto-perfil.png" alt="foto do perfil do Hamilton" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Hamilton Alexandre e sou um desenvolvedor frontend em
+              formação!</strong>
+            Gosto MUITO de programação, já programei em várias linguagens compiladas e interpretadas, tenho certeza que
+            posso contribuir em qualquer time nessa área.
+          </p>
+
+          <p>
+            Estou com novos projetos, fazendo cursos e participando de comunidades de programação para buscar
+            conhecimentos de outros desenvolvedores e desenvolvedoras. E também contribuir com minha experiência. 🙂
+          </p>
+
+          <p>
+            Ah, gosto de jogos de tabuleiro, filmes e sou estudante autodidata de piano clássico. 🎵
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="habilidade html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>Uso das tags gerais e tags semânticas, links, inputs number, password e submit; Checkbox, radio, select, textarea, button; Formulário com get e post; Responsividade com tag picture, favicon, caracteres e emojis; Áudios, vídeos, conceito de fallback e inclusão de iFrame do YouTube.</p>
+        </div>
+
+        <div class="habilidade css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>Tenho uma boa base do CSS. Já entendo bem conceitos de margin, padding, border, block, in-line block, especificidade e efeito cascata, responsividade, posicionamento de elementos com Flex-box, uso do Figma na estilização, posicionamento com Grid, dentre outros.</p>
+        </div>
+
+        <!-- <div class="habilidade">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>Tenho uma boa base do JS. Já entendo bem conceitos como callbacks, promisses, async/await, consumo de APIs, destructuring, spread operators, dentre outros.</p>
+        </div> -->
+
+        <div class="habilidade github">
+          <div class="logo">
+            <i class="devicon devicon-github-original"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>No github tenho alguns repositórios com projetos nas habilidades atuais, entendo bem como fazer um clone de repositório, criação de token pessoal, como criar um readme, gerar chave SSH, dentre outros.</p>
+        </div>
+
+        <div class="habilidade git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain"></i>
+          </div>
+          <h3>Git</h3>
+          <p>No git tenho uma boa base no controle do versionamento de códigos, entendo bem conceitos de estados dos arquivos: Tracked: unmodified, modified, staged e Untracked, bem como uso do Git Bash e respectivos comandos: git init, git add, git commit, git push, dentre outros.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos container">
+        <div class="projeto">
+          <a target="_blank" href="https://github.com/hamilton-vivas/hubble-landing-page.git">
+            <img src="/src/imagens/huddle-page.png" alt="Projet Huddle Base" />
+            <h3>Projeto Huddle Base</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a target="_blank" href="https://github.com">
+            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
+            <h3>Projeto 2</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a target="_blank" href="https://github.com">
+            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
+            <h3>Projeto 3</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a target="_blank" href="https://github.com">
+            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
+            <h3>Projeto 4</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/hamilton-alexandre-vivas-069953238/" class="outer-shadow" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/5571982046446" class="outer-shadow" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/hamilton-vivas" class="outer-shadow" target="_blank"><i class="fab fa-github"></i></a>
+        <!-- <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a> -->
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
