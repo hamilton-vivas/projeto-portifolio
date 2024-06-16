@@ -1,6 +1,6 @@
 # Portfolio
 
-[<img src="./src/portifolio.gif" alt="gif do projeto portifolio">](https://www.alexprogramadorweb.com)
+[<img src="./src/portfolio.gif" alt="gif do projeto portifolio">](https://www.alexprogramadorweb.com)
 
 ## Tecnologias utilizadas
 
